@@ -1,5 +1,5 @@
 .blog {
-  height: 1500px;
+  height: 1800px;
 }
 .sidebar input {
     width: 300px;
@@ -82,18 +82,16 @@
     width: 50%;
     padding-right: 15px;
     padding-left: 15px;
-    display: flexbox;
-    
+    margin-left: 370px;
+    margin-top: -1100px;
+
 }
 
-.blog-item-pic img {
-    width: 100%;
-    height: auto;
-}
 
 .blog-item-text ul {
     list-style: none;
     padding: 0;
+    color: #999797;
 }
 
 .blog-item-text ul li {
@@ -101,24 +99,107 @@
     margin-right: 10px;
 }
 
-.blog-item-text h5 a {
+.blog-item-text h3 a {
     color: #000;
     text-decoration: none;
+    font-weight: 900;
+    
 }
 
 .blog-item-text p {
-    color: #333;
+    color: #4f4f4f; 
 }
 
 .blog-btn {
     display: inline-block;
-    color: #000;
-    text-decoration: none;
-    border: 1px solid #000;
-    padding: 10px;
-    margin-top: 10px;
+    font-size: 14px;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid #b2b2b2;
+    padding: 14px 20px 12px;
+    border-radius: 25px;
+    color: #4f4f4f;
+}
+.blog-btn:hover {
+    background-color: #a9cb76;
+    color: #4e4e4e;
+    transition: all 0.5s ease;
 }
 
+.blog-item-2 {
+    margin-top: 77px;
+}
+.blog-item-3 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 370px;
+    margin-top: -1150px;
+
+}
+.blog-item-4 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 790px;
+    margin-top: -1150px;
+
+}
+.blog-item-5 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 370px;
+    margin-top: -580px;
+
+}
+.blog-item-6 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 790px;
+    margin-top: -580px;
+
+}
+.numbers {
+   margin-bottom: 20px;
+    position: relative;
+    margin-left: 400px;
+}
+.numbers a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #b2b2b2;
+    font-size: 14px;
+    color: #b2b2b2;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+
+    margin-right: 16px;
+}
+.numbers :hover {
+    background-color: #7fad39;
+    color: #4e4e4e;
+    transition: all 0.5s ease;
+}
+.numbers hr {
+    width: 800px; 
+    color: #c4c4c4;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+    
 
 
 
